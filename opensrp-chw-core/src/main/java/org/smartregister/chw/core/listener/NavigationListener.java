@@ -140,6 +140,11 @@ public class NavigationListener implements View.OnClickListener {
                 case CoreConstants.DrawerMenu.ADDO_LINKAGE:
                     startRegisterActivity(getActivity(CoreConstants.REGISTERED_ACTIVITIES.ADDO_LINKAGE_ACTIVITY));
                     break;
+
+//                    Map Navigation Menu with Register Activity
+                case CoreConstants.DrawerMenu.GE:
+                    startRegisterActivity(getActivity(CoreConstants.REGISTERED_ACTIVITIES.GE_REGISTER_ACTIVITY));
+                    break;
                 default:
                     Utils.showShortToast(activity.getApplicationContext(), "Unspecified navigation action");
                     break;
