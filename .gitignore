@@ -20,4 +20,3 @@ project.properties
 build/
 jacoco.exec
 github.properties
-.java-version
