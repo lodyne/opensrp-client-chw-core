@@ -999,6 +999,8 @@ public class CoreConstants {
         public static final String LAB = "Lab";
 
         public static final String GE = "GE";
+
+        public static final String MIMI = "MIMI";
     }
 
     public static final class RULE_FILE {
@@ -1267,6 +1269,8 @@ public class CoreConstants {
         public static final String ADDO_LINKAGE_ACTIVITY = "ADDO_LINKAGE_ACTIVITY";
 
         public static final String GE_REGISTER_ACTIVITY = "GE_REGISTER_ACTIVITY";
+
+        public static final String MIMI_REGISTER_ACTIVITY = "MIMI_REGISTER_ACTIVITY";
     }
 
     public static final class BUSINESS_STATUS {
