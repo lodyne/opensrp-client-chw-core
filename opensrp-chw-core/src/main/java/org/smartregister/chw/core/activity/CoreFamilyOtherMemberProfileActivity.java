@@ -215,6 +215,9 @@ public abstract class CoreFamilyOtherMemberProfileActivity extends BaseFamilyOth
         else if (i == R.id.action_ge_registration) {
             startGeEnrollment();
         }
+        else if (i == R.id.action_blood_registration) {
+            startGeEnrollment();
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -265,6 +268,7 @@ public abstract class CoreFamilyOtherMemberProfileActivity extends BaseFamilyOth
 
     protected abstract void startGbvRegistration();
     protected abstract void startGeEnrollment();
+    protected abstract void startBloodEnrollment();
 
     protected abstract void setIndependentClient(boolean isIndependent);
 
