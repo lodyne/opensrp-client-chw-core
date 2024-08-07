@@ -838,6 +838,7 @@
 
     <!--    GE-->
     <string name="ge_registration">GE Enrollment</string>
+    <string name="blood_registration">Blood Enrollment</string>
 
 
 </resources>
