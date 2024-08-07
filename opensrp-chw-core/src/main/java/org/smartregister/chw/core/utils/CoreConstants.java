@@ -924,9 +924,8 @@ public class CoreConstants {
         public static final String LABOUR_AND_DELIVERY = "ec_ld_confirmation";
         public static final String LTFU_REFERRALS = "ec_ltfu_referrals";
 
+//        Create Constant for new table known as ec_gender_equality
         public static final String GENDER_EQUALITY = "ec_gender_equality";
-
-//   Create Constant for new table known as ec_gender_equality
 
     }
 
@@ -1007,6 +1006,8 @@ public class CoreConstants {
         public static final String GE = "GE";
 
         public static final String MIMI = "MIMI";
+
+        public static final String BLOOD = "BLOOD";
     }
 
     public static final class RULE_FILE {
@@ -1274,9 +1275,12 @@ public class CoreConstants {
       
         public static final String ADDO_LINKAGE_ACTIVITY = "ADDO_LINKAGE_ACTIVITY";
 
+//      Setup constants for Gender Equality Register Activity
         public static final String GE_REGISTER_ACTIVITY = "GE_REGISTER_ACTIVITY";
 
         public static final String MIMI_REGISTER_ACTIVITY = "MIMI_REGISTER_ACTIVITY";
+
+        public static final String BLOOD_REGISTER_ACTIVITY = "BLOOD_REGISTER_ACTIVITY";
     }
 
     public static final class BUSINESS_STATUS {
