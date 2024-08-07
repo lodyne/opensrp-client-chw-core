@@ -131,6 +131,7 @@ public abstract class CoreFamilyOtherMemberProfileActivity extends BaseFamilyOth
             addMember.setVisible(false);
         }
 
+//        Use to add options menu that appears at vertical dotted lines
         getMenuInflater().inflate(R.menu.other_member_menu, menu);
         return true;
     }
@@ -210,6 +211,11 @@ public abstract class CoreFamilyOtherMemberProfileActivity extends BaseFamilyOth
         }else if (i == R.id.action_gbv_registration) {
             startGbvRegistration();
         }
+//        Access id and call method that is used to "listen" once the option is clicked
+        else if (i == R.id.action_ge_registration) {
+            startGeEnrollment();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -258,6 +264,7 @@ public abstract class CoreFamilyOtherMemberProfileActivity extends BaseFamilyOth
     protected abstract void startSbcRegistration();
 
     protected abstract void startGbvRegistration();
+    protected abstract void startGeEnrollment();
 
     protected abstract void setIndependentClient(boolean isIndependent);
 

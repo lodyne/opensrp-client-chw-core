@@ -875,6 +875,7 @@ public class CoreConstants {
 
     public static class TABLE_NAME {
         public static final String FAMILY = "ec_family";
+
         public static final String FAMILY_MEMBER = "ec_family_member";
         public static final String CHILD = "ec_child";
         public static final String CHILD_ACTIVITY = "ec_child_activity";
@@ -922,6 +923,11 @@ public class CoreConstants {
         public static final String HEI = "ec_hei";
         public static final String LABOUR_AND_DELIVERY = "ec_ld_confirmation";
         public static final String LTFU_REFERRALS = "ec_ltfu_referrals";
+
+        public static final String GENDER_EQUALITY = "ec_gender_equality";
+
+//   Create Constant for new table known as ec_gender_equality
+
     }
 
     public static final class INTENT_KEY {
@@ -999,6 +1005,8 @@ public class CoreConstants {
         public static final String LAB = "Lab";
 
         public static final String GE = "GE";
+
+        public static final String MIMI = "MIMI";
     }
 
     public static final class RULE_FILE {
@@ -1267,6 +1275,8 @@ public class CoreConstants {
         public static final String ADDO_LINKAGE_ACTIVITY = "ADDO_LINKAGE_ACTIVITY";
 
         public static final String GE_REGISTER_ACTIVITY = "GE_REGISTER_ACTIVITY";
+
+        public static final String MIMI_REGISTER_ACTIVITY = "MIMI_REGISTER_ACTIVITY";
     }
 
     public static final class BUSINESS_STATUS {
