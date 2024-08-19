@@ -39,13 +39,16 @@ public interface CoreGeProfileContract {
     }
     public interface Presenter{
 
-        void convertDataToEvent(String data);
+        void processDataToEvent(String data);
+
+        JSONObject getJsonForm(CommonPersonObjectClient commonPersonObjectClient, String formName);
 
         ClientInfo getClientsInfo(CommonPersonObjectClient clientsInfo);
-
     }
     public interface Model{
         ClientInfo getClientsInfo(CommonPersonObjectClient clientsInfo);
     }
+
+
 
 }
