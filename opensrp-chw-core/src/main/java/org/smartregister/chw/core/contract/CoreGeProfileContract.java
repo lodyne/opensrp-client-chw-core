@@ -49,6 +49,10 @@ public interface CoreGeProfileContract {
         ClientInfo getClientsInfo(CommonPersonObjectClient clientsInfo);
     }
 
+    public interface Interactor{
+        void processDataToEvent(String data);
+        JSONObject getJsonForm(CommonPersonObjectClient commonPersonObjectClient, String formName);
 
+    }
 
 }

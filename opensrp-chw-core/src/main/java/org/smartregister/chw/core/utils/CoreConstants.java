@@ -926,6 +926,7 @@ public class CoreConstants {
 
 //        Create Constant for new table known as ec_gender_equality
         public static final String GENDER_EQUALITY = "ec_gender_equality";
+        public static final String GENDER_SERVICES = "ec_gender_services";
 
     }
 
